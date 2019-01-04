@@ -15,7 +15,7 @@ bytes32 constant VERSION_HASH = 0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307
 // kekkac256("MultiSigTransaction(address destination,uint256 value,bytes data,uint256 nonce,address executor,uint256 gasLimit)")
 bytes32 constant TXTYPE_HASH = 0x3ee892349ae4bbe61dce18f95115b5dc02daf49204cc602458cd4c1f540d56d7;
 
-bytes32 constant SALT = 0x251543af6a222378665a76fe38dbceae4871a070b7fdaf5c6c30cf758dc33cc0;
+bytes32 constant SALT = 0x83362acb245a2eb6c0599b7114d33a0f0dfd5894de9e50c6f7ad515768f89862;
 
   uint public nonce;                 // (only) mutable state
   uint public threshold;             // immutable state
